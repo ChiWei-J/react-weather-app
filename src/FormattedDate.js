@@ -12,7 +12,7 @@ export default function FormattedDate(props) {
     "Saturday",
   ];
   let day = days[props.date.getDay()];
-  let currentDate = moment().format("MMMM Do YYYY, h:mm a");
+  let currentDate = moment().format("MMMM Do, h:mm a");
 
   return (
     <div>
