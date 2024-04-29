@@ -1,3 +1,7 @@
 .WeatherInfo {
   margin-left: 130px;
 }
+
+.WeatherInfo ul li {
+  line-height: 1.5;
+}
