@@ -45,3 +45,12 @@
   line-height: 1;
   top: -34px;
 }
+.Weather .btn {
+  background: #5e63b6;
+  color: #f4f3f6;
+  transition: all 150ms ease-in-out;
+}
+
+.Weather .btn:hover {
+  box-shadow: 5px 7px 5px rgba(109, 108, 109, 0.3);
+}
