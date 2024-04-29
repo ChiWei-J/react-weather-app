@@ -16,3 +16,17 @@
   border-radius: 10px;
   height: 600px;
 }
+
+@media (max-width: 600px) {
+  .App .container {
+    height: 1010px;
+    max-width: 400px;
+  }
+  .App footer {
+    font-size: 9px;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    color: #dad4ec;
+  }
+}

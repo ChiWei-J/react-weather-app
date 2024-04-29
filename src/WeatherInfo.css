@@ -1,7 +1,9 @@
-.WeatherInfo {
-  margin-left: 130px;
-}
-
 .WeatherInfo ul li {
   line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .Weatherinfo {
+    margin: 0 auto;
+  }
 }
