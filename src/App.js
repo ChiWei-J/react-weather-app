@@ -7,29 +7,33 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Seoul" />
-        <footer>
-          This project was coded by{" "}
-          <a
-            href="https://www.https://chi-jan-portfolio.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Chi Jan
-          </a>{" "}
-          and is{" "}
-          <a
-            href="https://github.com/ChiWei-J/react-weather-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            open-sourced on GitHub
-          </a>{" "}
-          and{" "}
-          <a href="/" target="_blank" rel="noopener noreferrer">
-            hosted on Netlify
-          </a>
-        </footer>
       </div>
+      <footer>
+        This project was coded by{" "}
+        <a
+          href="https://www.https://chi-jan-portfolio.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Chi Jan
+        </a>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/ChiWei-J/react-weather-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          open-sourced on GitHub
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://react-weather-01.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          hosted on Netlify
+        </a>
+      </footer>
     </div>
   );
 }

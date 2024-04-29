@@ -1,0 +1,14 @@
+html {
+  height: 110%;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(
+    to top,
+    rgb(12, 52, 131) 0%,
+    rgb(162, 182, 223) 100%,
+    rgb(107, 140, 206) 100%,
+    rgb(162, 182, 223) 100%
+  );
+  background-repeat: no-repeat;
+}

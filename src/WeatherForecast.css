@@ -1,8 +1,30 @@
 .WeatherForecast {
   text-align: center;
+  margin-top: 60px;
+  display: flex-grid;
+  grid-gap: 30px;
+  grid-template-rows: repeat(5, 1fr);
+  justify-content: space-evenly;
 }
 
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
+}
+
+.WeatherForecast .col {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgb(56, 89, 139, 0.3);
+  box-shadow: 5px 7px 5px rgba(109, 108, 109, 0.3);
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  height: 180px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  transition: all 150ms ease-in-out;
+}
+
+.WeatherForecast .col:hover {
+  transform: scale(1.1);
 }
