@@ -62,4 +62,7 @@
   .Weather .btn {
     width: 75px;
   }
+  .Weather .temperature {
+    line-height: 50px;
+  }
 }

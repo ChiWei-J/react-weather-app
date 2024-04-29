@@ -6,4 +6,7 @@
   .Weatherinfo {
     margin: 0 auto;
   }
+  .WeatherInfo .additional-info {
+    margin-left: 15px;
+  }
 }
