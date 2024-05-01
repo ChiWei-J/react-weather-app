@@ -11,7 +11,7 @@ export default function App() {
       <footer>
         This project was coded by{" "}
         <a
-          href="https://www.https://chi-jan-portfolio.netlify.app/"
+          href="https://main--chi-jan-portfolio.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
