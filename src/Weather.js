@@ -10,8 +10,6 @@ export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
 
   function handleResponse(response) {
-    console.log(response.data);
-
     setWeatherData({
       ready: true,
       coordinates: response.data.coordinates,
@@ -36,8 +34,8 @@ export default function Weather(props) {
   }
 
   function search() {
-    let apiKey = "50d82d8a44050b284atfdo1ff3447781";
-    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`;
+    const apiKey = "50d82d8a44050b284atfdo1ff3447781";
+    const apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`;
     axios.get(apiUrl).then(handleResponse);
   }
 
